@@ -1,0 +1,336 @@
+.navbar-brand img {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.nav-link {
+  display: flex;
+  color: rgba(255, 255, 255, 0.938) !important;
+  font-family: "Rancho";
+  font-size: 25px;
+  justify-content: center;
+  z-index: 1;
+}
+.nav-link:hover {
+  color: rgba(8, 255, 41, 0.884) !important;
+}
+
+.navbar-nav {
+  width: 90%;
+  justify-content: space-around;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 900px;
+  background-position: center;
+  filter: brightness(0.7);
+}
+
+.carousel-caption {
+  font-family: "Rancho";
+  height: 60%;
+}
+.carousel-caption h5 {
+  font-size: 35px;
+}
+.carousel-caption p {
+  font-size: 20px;
+}
+.carousel-caption h6 {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.verde {
+  color: rgba(8, 255, 41, 0.884);
+}
+
+body {
+  background-color: #121212;
+}
+
+#navbar1 {
+  background-image: url(../imagenes/nav1.jpg) !important;
+  background-size: cover;
+  height: 100px;
+  background-position: left;
+  z-index: 1;
+}
+
+.nosotros-content {
+  padding: 15px;
+  justify-self: center;
+  text-align: center;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+}
+
+.nosotros {
+  justify-self: center;
+  text-align: left;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+  padding: 20px;
+  width: 50%;
+}
+
+.video {
+  padding: 20px;
+  justify-self: center;
+}
+.video iframe {
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  color: rgba(8, 255, 41, 0.884);
+}
+
+.containernosotros2 {
+  height: 150px;
+  background-image: url(../imagenes/nav1.jpg);
+  background-size: 100%;
+  background-position-x: 29%;
+  background-position-y: 50%;
+  display: grid;
+  grid-template-columns: 15% 35% 50%;
+  grid-template-rows: 150px;
+  grid-template-areas: "logo nav nav";
+}
+
+.contentequip {
+  display: grid;
+  grid-template-columns: 13% 14% 14% 14% 14% 14% 13%;
+  grid-template-rows: 20% 40% 30% 20%;
+  gap: 10px;
+}
+
+.contentequip img {
+  width: 250px;
+  height: 300px;
+}
+
+.cindiimg {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.edwardimg {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.rosaimg {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.elberimg {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.deboraimg {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cindi {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+  font-size: 20px;
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cindi {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+  font-size: 20px;
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.edward {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+  font-size: 20px;
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.rosa {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+  font-size: 20px;
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.elber {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+  font-size: 20px;
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.debora {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+  font-size: 20px;
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.nosotroscont {
+  padding: 15px;
+  justify-self: center;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: "Rancho";
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.contenido {
+  padding: 15px;
+  justify-self: center;
+  text-align: center;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
+}
+.contenido p {
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+#galeria img {
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+}
+
+.campos {
+  display: inline-flex;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.548);
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Rancho";
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+input {
+  width: auto;
+  height: auto;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 40px;
+  bottom: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.548);
+  font-family: "rancho";
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+}
+.socials img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-bottom {
+  background-color: #1a1a1a;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  font-family: "rancho";
+  word-spacing: 2px;
+}
+
+/*# sourceMappingURL=main.css.map */

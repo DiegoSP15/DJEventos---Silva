@@ -1,0 +1,51 @@
+
+body{
+    background-color: #121212;
+}
+
+#navbar1{
+    background-image: url(../imagenes/nav1.jpg) !important;
+    background-size: cover;
+    height: 100px;
+    background-position: left;
+    z-index: 1;
+}
+
+.nosotros-content{
+    padding: 15px;
+    justify-self: center;
+
+
+    text-align: center;
+    font-size: 25px;
+    color: $color-text;
+    font-family: $font;
+}
+
+
+.nosotros{
+    justify-self: center;
+    text-align: left;
+    font-size: 20px;
+    color: $color-text;
+    font-family: $font;
+    padding: 20px;
+    width: 50%;
+
+}
+
+.video{
+    padding: 20px;
+    justify-self: center;
+
+    iframe{
+    height: 100%;
+    width: 100%;
+
+}
+}
+
+span{
+    color: $Color-verde;
+}
+

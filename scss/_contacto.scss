@@ -1,0 +1,27 @@
+
+.campos {
+    display: inline-flex;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:rgba(255, 255, 255, 0.548);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: $font;
+}
+
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+input{
+    width:auto ;
+    height: auto;
+}

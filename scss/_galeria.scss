@@ -1,0 +1,27 @@
+.contenido{
+        padding: 15px;
+        justify-self: center;
+        text-align: center;
+        font-size: 25px;
+        color: $color-text;
+        font-family: $font;
+
+        p{
+            display: flex;
+            font-size: 20px;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+        }
+}
+
+#galeria{
+
+    img{
+        height:100% ;
+        width:100% ;
+        justify-self: center;
+
+    }
+
+}
