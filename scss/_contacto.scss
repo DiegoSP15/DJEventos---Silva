@@ -25,3 +25,90 @@ input{
     width:auto ;
     height: auto;
 }
+
+@media (max-width: 736px){
+
+    .campos {
+        display: inline-flex;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        color:rgba(255, 255, 255, 0.548);
+        font-size: 10px;
+        margin-bottom: 10px;
+        font-family: $font;
+    }
+    
+    
+    textarea {
+        min-height: 50px;
+        max-height: 100px;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    
+    input{
+        width:auto ;
+        height: auto;
+    }
+
+    
+
+    .footer{
+        grid-area: footer;
+    }
+    
+    footer {
+        bottom: 0;
+        left: 0;
+        right: 0;
+    
+        padding-top: 20px;
+        bottom: 0;
+        height: auto;
+
+        h3{
+            font-size: 15px;
+        }
+
+        p{
+            font-size: 10px;
+        }
+
+    }
+    
+    .socials {
+
+    
+            li{
+            margin: 0 10px;
+            }
+    
+            a{
+            text-decoration: none;
+            }
+    
+            img{
+                width: 10px;
+                height: 10px;
+            }    
+    }   
+    .footer-bottom {
+
+        width: 100%;
+        padding: 10px 0;
+    
+    
+        p{
+        font-size: 10px;
+        word-spacing: 2px;
+    }
+    }
+
+
+
+
+}

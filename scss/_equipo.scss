@@ -1,119 +1,50 @@
 
-.containernosotros2 {
-    height: 150px;
-    background-image: url(../imagenes/nav1.jpg);
-    background-size: 100%;
-    background-position-x: 29%;
-    background-position-y: 50%;
-    display: grid;
-    grid-template-columns: 15% 35% 50%;
-    grid-template-rows: 150px;
-    grid-template-areas: "logo nav nav";
-  }
-  
-  .contentequip {
-    display: grid;
-    grid-template-columns: 13% 14% 14% 14% 14% 14% 13%;
-    grid-template-rows: 20% 40% 30% 20%;
-    gap: 10px;
-  }
-  
-  .contentequip img {
-    width: 250px;
-    height: 300px;
-  }
-  
-  .cindiimg {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  
-  .edwardimg {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  
-  .rosaimg {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  
-  .elberimg {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  
-  .deboraimg {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  
-@mixin colab () {
-  color: $color-text;
-  font-family: $font;
-  font-size: 20px;
-  text-align: left;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  
-}
 
+.nosotroscont{
 
-  .cindi {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    @include colab()
-  }
-  
-  .cindi {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    @include colab()
-  }
-  
-  .edward {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    @include colab()
-  }
-  
-  .rosa {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    @include colab()
-  }
-  
-  .elber {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    @include colab()
-  }
-  
-  .debora {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    @include colab()
-  }
-  
-  .nosotroscont {
+  h2{
     padding: 15px;
     justify-self: center;
     text-align: center;
-    font-size: 25px;
-    color: white;
+    font-size: 35px;
+    color: $color-text;
     font-family: $font;
-    grid-column-start: 1;
-    grid-column-end: 8;
-    grid-row-start: 1;
-    grid-row-end: 2;
   }
+  
+  p{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: $color-text;
+    font-family: $font;
+
+  }
+
+}
+
+.imgequip {
+      width: 250px;
+      height: 300px;
+    }
+
+.equipcontent{
+
+      h3{
+        text-align: start;
+        font-size: 25px;
+        color:$color-text;
+        font-family: $font;
+        padding-top: 10px;
+      }
+
+      p{
+        text-align: start;
+        font-size: 20px;
+        color: $color-text;
+        font-family: $font;
+      }
+
+
+}

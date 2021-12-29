@@ -5,8 +5,12 @@ $color-text:rgba(255, 255, 255, 0.938);
 .navbar-brand {
 
         img{
+            display: flex;
             width: 150px;
-            height: 100px;
+            height: 90px;
+            justify-self: center;
+
+            
         }
 }
 .navbar{
@@ -15,7 +19,8 @@ $color-text:rgba(255, 255, 255, 0.938);
 
 .nav-link{
     display: flex;
-    color: $color-text !important;
+    width: 100%;
+    color: white !important;
     font-family: $font;
     font-size: 25px;
     justify-content: center;
