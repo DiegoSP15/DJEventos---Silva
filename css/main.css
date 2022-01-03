@@ -28,9 +28,8 @@
 }
 
 .carousel-item img {
+  height: 95vh;
   width: 100%;
-  height: 900px;
-  background-position: center;
   filter: brightness(0.7);
 }
 
@@ -151,7 +150,7 @@ span {
 }
 
 #galeria img {
-  height: 200px;
+  height: 100%;
   width: 100%;
   justify-self: center;
 }
