@@ -13,9 +13,15 @@ $color-text:rgba(255, 255, 255, 0.938);
             
         }
 }
-.navbar{
-    height: 100px;
+
+#navbarindex{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+	padding: 10px 0;
 }
+
 
 .nav-link{
     display: flex;
@@ -35,12 +41,18 @@ $color-text:rgba(255, 255, 255, 0.938);
     justify-content: space-around;
 }
 
-.carousel-item img{
-    height: 95vh;
-    width: 100%;
+
+.carousel-item {
+
+img{
+    background-size: cover;
     filter:brightness(0.7);
+    background-position: right;
+
 
 }
+}
+
 
 .carousel-caption {
     font-family: $font;
@@ -58,4 +70,11 @@ $color-text:rgba(255, 255, 255, 0.938);
 
 .verde{
     color: $Color-verde ;
+}
+
+@media (max-width: 990px) {
+
+    #navbarNavAltMarkup{
+        background-color:rgba($color: #000000, $alpha: .7);
+    }
 }

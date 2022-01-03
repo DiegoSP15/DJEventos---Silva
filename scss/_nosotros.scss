@@ -14,27 +14,35 @@ body{
 .nosotros-content{
     padding: 15px;
     justify-self: center;
-
-
     text-align: center;
     font-size: 25px;
     color: $color-text;
     font-family: $font;
+
+    p{
+        font-size: 20px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
 }
 
 
 .nosotros{
     justify-self: center;
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
     color: $color-text;
     font-family: $font;
     padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
 .video{
     padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
     justify-self: center;
 
     iframe{
@@ -48,3 +56,18 @@ span{
     color: $Color-verde;
 }
 
+
+@media (max-width: 1333px) {
+
+.nosotros{
+    font-size: 25px;  
+}
+
+}
+@media (max-width: 949px) {
+
+    .nosotros{
+        font-size: 20px;  
+    }
+    
+    }

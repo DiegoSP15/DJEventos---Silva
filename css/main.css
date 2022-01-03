@@ -5,8 +5,12 @@
   justify-self: center;
 }
 
-.navbar {
-  height: 100px;
+#navbarindex {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 0;
 }
 
 .nav-link {
@@ -28,9 +32,9 @@
 }
 
 .carousel-item img {
-  height: 95vh;
-  width: 100%;
+  background-size: cover;
   filter: brightness(0.7);
+  background-position: right;
 }
 
 .carousel-caption {
@@ -53,6 +57,11 @@
   color: rgba(8, 255, 41, 0.884);
 }
 
+@media (max-width: 990px) {
+  #navbarNavAltMarkup {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
 body {
   background-color: #121212;
 }
@@ -73,18 +82,27 @@ body {
   color: rgba(255, 255, 255, 0.938);
   font-family: "Rancho";
 }
+.nosotros-content p {
+  font-size: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
 
 .nosotros {
   justify-self: center;
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
   color: rgba(255, 255, 255, 0.938);
   font-family: "Rancho";
   padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .video {
   padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
   justify-self: center;
 }
 .video iframe {
@@ -96,6 +114,16 @@ span {
   color: rgba(8, 255, 41, 0.884);
 }
 
+@media (max-width: 1333px) {
+  .nosotros {
+    font-size: 25px;
+  }
+}
+@media (max-width: 949px) {
+  .nosotros {
+    font-size: 20px;
+  }
+}
 .nosotroscont h2 {
   padding: 15px;
   justify-self: center;
@@ -106,12 +134,13 @@ span {
 }
 .nosotroscont p {
   display: flex;
-  font-size: 20px;
+  font-size: 25px;
   width: 100%;
   justify-content: center;
   text-align: center;
   color: rgba(255, 255, 255, 0.938);
   font-family: "Rancho";
+  padding-bottom: 40px;
 }
 
 .imgequip {
@@ -150,9 +179,13 @@ span {
 }
 
 #galeria img {
-  height: 100%;
-  width: 100%;
+  height: 85%;
+  width: 85%;
   justify-self: center;
+}
+
+.carousel-inner h5 {
+  align-self: flex-end;
 }
 
 .campos {
