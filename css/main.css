@@ -184,10 +184,6 @@ span {
   justify-self: center;
 }
 
-.carousel-inner h5 {
-  align-self: flex-end;
-}
-
 .campos {
   display: inline-flex;
 }
@@ -330,6 +326,40 @@ footer {
   font-size: 14px;
   font-family: "rancho";
   word-spacing: 2px;
+}
+
+.servtitle p {
+  font-size: 20px;
+}
+.servtitle h4 {
+  font-size: 30px;
+}
+
+.servi p {
+  font-size: 25px;
+  text-align: left;
+}
+.servi h3 {
+  font-size: 35px;
+  text-align: left;
+}
+
+.servd p {
+  font-size: 25px;
+  text-align: right;
+}
+.servd h3 {
+  font-size: 35px;
+  text-align: right;
+}
+
+.imgserv img {
+  size: 100%;
+}
+
+.textserv {
+  color: rgba(255, 255, 255, 0.938);
+  font-family: "Rancho";
 }
 
 /*# sourceMappingURL=main.css.map */
