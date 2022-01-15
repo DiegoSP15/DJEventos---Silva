@@ -12,6 +12,11 @@ padding: 20px;
 
 }
 
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
 .servi{
     padding: 20px;
 
@@ -51,7 +56,47 @@ padding: 20px;
     padding: 20px;
         color: $color-text;
         font-family: $font;
- 
 }
 
 
+
+@media (max-width: 1000px) {
+
+    .servtitle{
+        padding: 20px;
+        
+            p{
+                font-size: 18px;
+            }
+        
+            h4{
+                font-size: 30px;
+            }
+        
+        }
+    
+        .servi{
+        
+            p{
+                font-size: 20px;
+            }
+        
+            h3{
+                font-size: 30px;
+            }
+        }
+        
+        .servd{
+            p{
+                font-size: 20px;
+            }
+        
+            h3{
+                font-size: 30px;
+
+            }
+        }
+
+    }
+
+  

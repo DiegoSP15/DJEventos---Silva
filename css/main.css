@@ -42,13 +42,13 @@
   height: 60%;
 }
 .carousel-caption h5 {
-  font-size: 35px;
+  font-size: 45px;
 }
 .carousel-caption p {
-  font-size: 20px;
+  font-size: 30px;
 }
 .carousel-caption h6 {
-  font-size: 20px;
+  font-size: 30px;
   justify-content: center;
   text-align: center;
 }
@@ -60,6 +60,27 @@
 @media (max-width: 990px) {
   #navbarNavAltMarkup {
     background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .carousel-caption h5 {
+    font-size: 35px;
+  }
+  .carousel-caption p {
+    font-size: 20px;
+  }
+  .carousel-caption h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 590px) {
+  .carousel-caption h5 {
+    font-size: 35px;
+  }
+  .carousel-caption p {
+    font-size: 18px;
+  }
+  .carousel-caption h6 {
+    font-size: 18px;
   }
 }
 body {
@@ -338,6 +359,11 @@ footer {
   font-size: 30px;
 }
 
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
 .servi {
   padding: 20px;
 }
@@ -374,6 +400,32 @@ footer {
   padding: 20px;
   color: rgba(255, 255, 255, 0.938);
   font-family: "Rancho";
+}
+
+@media (max-width: 1000px) {
+  .servtitle {
+    padding: 20px;
+  }
+  .servtitle p {
+    font-size: 18px;
+  }
+  .servtitle h4 {
+    font-size: 30px;
+  }
+
+  .servi p {
+    font-size: 20px;
+  }
+  .servi h3 {
+    font-size: 30px;
+  }
+
+  .servd p {
+    font-size: 20px;
+  }
+  .servd h3 {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

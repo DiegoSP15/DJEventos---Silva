@@ -58,12 +58,12 @@ img{
     font-family: $font;
     height: 60%;
     h5 {
-        font-size: 35px;}
+        font-size: 45px;}
     p {
-        font-size: 20px;}
+        font-size: 30px;}
 
     h6 {
-        font-size: 20px;
+        font-size: 30px;
         justify-content: center;
         text-align: center;}
 }
@@ -77,4 +77,32 @@ img{
     #navbarNavAltMarkup{
         background-color:rgba($color: #000000, $alpha: .7);
     }
+
+    .carousel-caption {
+        h5 {
+            font-size: 35px;}
+        p {
+            font-size: 20px;}
+    
+        h6 {
+            font-size: 20px;}
+
+    }
+
+}
+
+@media (max-width: 590px) {
+
+
+    .carousel-caption {
+        h5 {
+            font-size: 35px;}
+        p {
+            font-size: 18px;}
+    
+        h6 {
+            font-size: 18px}
+
+    }
+
 }
