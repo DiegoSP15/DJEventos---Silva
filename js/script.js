@@ -26,10 +26,10 @@ let dia = prompt ("¿que dia de la semana le gustaria realizar su evento?");
 
 if((dia == "Viernes")||(dia == "Sabado")||(dia == "Domingo")){
     var costetotal = costeParcial
-    alert( costetotal)
+    alert("el precio estimado seria de USD" + costetotal)
 }
 
 else{
     var costetotal = costeParcial - costeParcial * LaJ;
-    alert( costetotal)
+    alert( "el precio estimado seria de USD " + costetotal)
 }
