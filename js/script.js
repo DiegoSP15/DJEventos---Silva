@@ -1,14 +1,43 @@
 // presentacion
-function persona (){
-    var nombre = prompt ("Cual es tu nombre")
-    var apellido = prompt ("Cual es tu apellido")
-    var cel = prompt ("Cual es tu numero de contacto")
-    var email = prompt ("Cual es tu email")
+//function usuario (nombre, apellido, cel, email){
+   // this.nombre= nombre;
+   // this.apellido= apellido;
+   // this.cel= cel;
+   // this.email= email;
+   // this.nuevoUsuario = true;
+   // this.saludo = function () {
+   //     alert ( "Bienvenid@ " + this.nombre +" " + this.apellido)
+   // }
+//}    
 
-    alert("Bienvenid@ " + nombre +" "+ apellido)
+//class
+
+class usuario {
+    constructor(nombre, apellido, cel, email){
+        this.nombre= nombre;
+        this.apellido= apellido;
+        this.cel= cel;
+        this.email= email;
+    }
+    saludo(){
+        alert ( "Bienvenid@ " + this.nombre +" " + this.apellido)
+    }
+
+
 }
 
-persona ();
+
+
+let preguntarNombre = prompt ("Ingresa tu nombre")
+let preguntarApellido = prompt ("Ingresa tu apellido")
+let preguntarCel = prompt ("Ingresa tu numero de contacto")
+let preguntarEmail = prompt ("Ingresa tu email")
+
+
+const nuevoUsuario1 = new usuario (preguntarNombre, preguntarApellido, preguntarCel, preguntarEmail);
+console.log(nuevoUsuario1);
+
+nuevoUsuario1.saludo();
 
 // tipo de evento
 let evento = prompt("¿Que tipo de evento desea realizar? Opciones: boda, cumpleaño, empresarial, discoteca" );
